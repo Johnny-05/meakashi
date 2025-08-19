@@ -2827,7 +2827,7 @@ void main()
 		   NULL, " Your twin sister Mion-san...", Line_WaitForInput);
 	ModPlayVoiceLS(4, 11, "ps3/s06/11/150700236", 256, TRUE);
 	OutputLine(NULL, "次期頭首ということで、園崎お魎の身近にいますよね？",
-		   NULL, " is the closest person to Oryou Sonozaki, correct?", GetGlobalFlag(GLinemodeSp));
+		   NULL, " is the closest person to Oryou Sonozaki, correct? ", GetGlobalFlag(GLinemodeSp));
 
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#a59da9>大石</color>", NULL, "<color=#a59da9>Ooishi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(4, 11, "ps3/s06/11/150700237", 256, TRUE);
